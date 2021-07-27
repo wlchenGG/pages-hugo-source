@@ -1,4 +1,4 @@
-name: Generate Site
+name: Generate Github Pages
 on:
   push:
     branches:
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Check out source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2 # 引用actions/checkout这个action，与所在的github仓库同名
         
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
@@ -20,10 +20,10 @@ jobs:
         run: hugo --minify
         
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3 # hugo官方提供的action，用于在任务环境中获取hugo
         with:
-          deploy_key: ${{ secrets.DEPLOY_TOKEN }} # 另外还支持 github_token 和 personal_token
-          external_repository: Wlchengg/wlchengg.github.io` # 修改为你的 GitHub Pages 仓库
+          deploy_key: ${{ secrets.HUGO_DEPLOY_TOKEN }} # 另外还支持 github_token 和 personal_token
+          external_repository: wlchengg/wlchengg.github.io` # 修改为你的 GitHub Pages 仓库
           publish_dir: ./public
           keep_files: false
           publish_branch: master
