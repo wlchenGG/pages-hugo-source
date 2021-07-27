@@ -431,7 +431,11 @@ symbols_count_time:
 
 ##### 主题在本地能渲染，而部署到Github后丢失主题
 
+作为个人主页时，
 <div align="center"><img src="https://cdn.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/Hexo-NexT-主题美化_20210724144005_2021-07-24-14-40-06.png" alt="Hexo-NexT-主题美化_20210724144005_2021-07-24-14-40-06" width="75%" align="center"/></div>
+
+作为项目主页时，
+<div align="center"><img src="https://i.loli.net/2021/07/28/jKweLPFbaMqu93N.png" alt="20210728031654" width="75%" align="center"/></div>
 
 ### 参考
 
