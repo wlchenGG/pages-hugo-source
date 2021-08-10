@@ -9,7 +9,7 @@ hasCJKLanguage = true
 title = "Wlcheng's Life"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
-theme = "LoveIt"
+theme = "DoIt"
 
 [menu]
   [[menu.main]] 
@@ -537,8 +537,8 @@ theme = "LoveIt"
 
 # Permalinks 配置
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":year/:month/:filename"
+  #posts = ":filename"
 
 # 隐私信息配置
 [privacy]
