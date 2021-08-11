@@ -58,11 +58,12 @@ theme = "DoIt"
   dateFormat = "2006-01-02"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
+  #  开启PWA支持
 
   #  应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "LoveIt"
+    title = "DoIt"
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -77,8 +78,8 @@ theme = "DoIt"
   #  搜索配置
   [params.search]
     enable = true
-    # 搜索引擎的类型 ("lunr", "algolia")
-    type = "lunr"
+    # 搜索引擎的类型 ("lunr", "algolia", "fuse")
+    type = "fuse"
     # 文章内容最长索引长度
     contentLength = 4000
     # 搜索框的占位提示语
@@ -95,6 +96,17 @@ theme = "DoIt"
       index = ""
       appID = ""
       searchKey = ""
+    [params.search.fuse]
+      #  https://fusejs.io/api/options.html
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+      useExtendedSearch = false
+      ignoreFieldNorm = false      
 
   # 页面头部导航栏配置
   [params.header]
@@ -102,6 +114,9 @@ theme = "DoIt"
     desktopMode = "fixed"
     # 移动端导航栏模式 ("fixed", "normal", "auto")
     mobileMode = "auto"
+    # DoIt 新增 | 0.2.11 主题切换模式
+    # 主题切换模式 ("switch", "select")
+    themeChangeMode = "select"
     #  页面头部导航栏标题配置
     [params.header.title]
       # LOGO 的 URL
@@ -161,6 +176,8 @@ theme = "DoIt"
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL
+      # 将你的头像文件放置于 static 或者 assets 目录下
+      # 文件路径是相对于 static 或者 assets 目录的
       avatarURL = "/images/avatar.png"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
@@ -185,10 +202,10 @@ theme = "DoIt"
   [params.social]
     GitHub = "wlchenGG"
     Linkedin = ""
-    Twitter = ""
-    Instagram = ""
-    Facebook = ""
-    Telegram = ""
+    Twitter = "xxxx"
+    Instagram = "xxxx"
+    Facebook = "xxxx"
+    Telegram = "xxxx"
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -245,8 +262,11 @@ theme = "DoIt"
     XMPP = ""
     Matrix = ""
     Bilibili = ""
+    ORCID = ""
+    Liberapay = ""
+    Ko-Fi = ""
     Email = "wlcheng12@outlook.com"
-    RSS = true # 
+    RSS = true # DoIt 新增 | 0.2.0
 
   #  文章页面配置
   [params.page]
@@ -268,12 +288,14 @@ theme = "DoIt"
     linkToMarkdown = true
     #  是否在 RSS 中显示全文内容
     rssFullText = false
+    # DoIt 新增 | 0.2.11 页面样式 ("normal", "wide")
+    pageStyle = "normal"
     #  目录配置
     [params.page.toc]
       # 是否使用目录
       enable = true
       #  是否保持使用文章前面的静态目录
-      keepStatic = false
+      keepStatic = true
       # 是否使侧边目录自动折叠展开
       auto = true
     #  代码配置
@@ -379,6 +401,25 @@ theme = "DoIt"
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
         emoji = ""
+      # Waline 评论系统设置
+      [params.page.comment.waline]
+        # DoIt 新增 | 0.2.11
+        enable = false
+        serverURL = ""
+        placeholder = "Just Go Go."
+        wordLimit = 0
+        avatar = "mp"
+        meta = ["nick", "mail", "link"]
+        pageSize = 10
+        lang = "en"
+        visitor = true
+        highlight = true
+        avatarCDN = ""
+        avatarForce = false
+        emojiCDN = ""
+        emojiMaps = ""
+        requiredFields = []
+        anonymous = false
       # Facebook 评论系统设置
       [params.page.comment.facebook]
         enable = false
@@ -408,6 +449,21 @@ theme = "DoIt"
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      # DoIt 新增 | 0.2.12 Twikoo 评论系统设置
+      [params.page.comment.twikoo]
+        enable = false
+        envId = ""
+        region = ""
+        path = ""
+        visitor = true
+      # DoIt 新增 | 0.2.12 Vssue 评论系统设置
+      [params.page.comment.vssue]
+        enable = false
+        platform = "" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
     #  第三方库配置
     [params.page.library]
       [params.page.library.css]
@@ -537,8 +593,8 @@ theme = "DoIt"
 
 # Permalinks 配置
 [Permalinks]
-  posts = ":year/:month/:filename"
-  #posts = ":filename"
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
 
 # 隐私信息配置
 [privacy]
@@ -569,3 +625,10 @@ theme = "DoIt"
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
+
+# 用于分类的设置
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+series = "series"
