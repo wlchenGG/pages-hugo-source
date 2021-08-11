@@ -1,7 +1,7 @@
 ---
 title: "测试Latex"
 date: 2021-08-12T00:10:43+08:00
-draft: true
+draft: false
 ---
 
 ### 
