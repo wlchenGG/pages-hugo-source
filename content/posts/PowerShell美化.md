@@ -10,13 +10,9 @@ tags:
 
 记录新版 PowerShell 的美化过程。
 
-TODO: 美化后的样子
-
-待续...
-
 <!--more-->
 
-### 开始
+TODO: 美化后的样子
 
 ### 安装 Windows Terminal
 
@@ -65,8 +61,6 @@ Terminal无需重启即可即时更新配置，从下拉菜单中看到 PowerShe
 ### 美化 PowerShell
 
 #### 安装 on-my-posh
-
-
 
 打开 Terminal，然后打开一个 PowerShell 窗口。
 
@@ -131,7 +125,13 @@ Set-PoshPrompt -Theme agnosterplus # 此处将agnosterplus替换为自己选主�
 
 #### 设置背景图
 
+只需打开 Terminal 的设置，从左侧`配置文件`中选择到自己新建的PowerShell，然后右侧选择`外观`选项卡，找到`背景图像`设置项，`浏览`选择图片。选好图片后，下面会多出一些针对背景图的设置，包括模糊、透明、位置等，可以自行调整。
+
+<div align="center"><img src="https://i.loli.net/2021/08/20/ycigkn2EKq3uSW6.png" alt="20210820015908" width="75%" align="center"/></div>
+
 ### VS Code 集成 PowerShell
+
+TODO：
 
 ### 参考
 
