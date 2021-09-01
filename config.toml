@@ -39,6 +39,14 @@ theme = "DoIt"
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "luoyeji"
+    pre = "<i class='fab fa-canadian-maple-leaf'></i>"
+    post = ""
+    name = "落叶集"
+    url = "https://wlchengg.github.io/luoyeji/"
+    title = "我的碎碎念"
+    weight = 4
 
 [params]
   #  LoveIt 主题版本
