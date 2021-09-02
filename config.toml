@@ -63,6 +63,14 @@ theme = "DoIt"
     url = "/friends/"
     title = "有朋自远方来"
     weight = 5
+  [[menu.main]]
+    identifier = "tools"
+    pre = "<i class='fas fa-toolbox' style='color:#2c3e50;'></i>"
+    post = ""
+    name = "百宝箱"
+    url = "/tools/"
+    title = "哆啦A梦的口袋"
+    weight = 6
 
 [params]
   #  LoveIt 主题版本
