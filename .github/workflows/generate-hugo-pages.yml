@@ -20,7 +20,6 @@ jobs:
         
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
-        continue-on-error: true # 当前步失败时，继续执行下一步
         with:
           hugo-version: "latest" # 默认使用最新 Hugo 版本
           extended: true # 设置是否需要 extended 版本
