@@ -39,6 +39,38 @@ theme = "DoIt"
     url = "/categories/"
     title = ""
     weight = 3
+  # [[menu.main]]
+  #   identifier = "luoyeji"
+  #   pre = "<i class='fab fa-canadian-maple-leaf' style='color:#F4606C;'></i>"
+  #   post = ""
+  #   name = "落叶集"
+  #   url = "https://wlchengg.github.io/luoyeji/"
+  #   title = "我的碎碎念"
+  #   weight = 4
+  [[menu.main]]
+    identifier = "garss"
+    pre = "<i class='fas fa-globe-asia' style='duotone;color:#004F7C'></i>"
+    post = ""
+    name = "RSS汇"
+    url = "https://wlchengg.github.io/garss/"
+    title = "来自世界的声音"
+    weight = 5
+  [[menu.main]]
+    identifier = "friends"
+    pre = "<i class='fas fa-user-friends' style='duotone;color:#A0EEE1'></i>"
+    post = ""
+    name = "友"
+    url = "/friends/"
+    title = "有朋自远方来"
+    weight = 5
+  [[menu.main]]
+    identifier = "tools"
+    pre = "<i class='fas fa-toolbox' style='color:#2c3e50;'></i>"
+    post = ""
+    name = "工具箱"
+    url = "/tools/"
+    title = "哆啦A梦的口袋"
+    weight = 6
 
 [params]
   #  LoveIt 主题版本
@@ -202,10 +234,10 @@ theme = "DoIt"
   [params.social]
     GitHub = "wlchenGG"
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""

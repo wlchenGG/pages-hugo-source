@@ -2,17 +2,26 @@
 title: "Hugo 搭建过程"
 date: 2021-07-27T14:06:53+08:00
 draft: false
+tags: 
+    - Hugo
+    - 博客
+
+featuredImage: "https://i.loli.net/2021/09/02/tDHy82zf4b3CrIE.png"
+
+lightgallery: true
+
 ---
 
-本文旨在记录基于`Hugo`静态博客建站工具 和`LoveIt`主题的个人博客过程，作为备忘。`VS Code`作为博客编辑、站点部署集成环境，站点维护仍然采用`Github Pages`。
 
+记录基于`Hugo`静态博客建站工具 和`LoveIt`主题的个人博客过程，作为备忘。`VS Code`作为博客编辑、站点部署集成环境，站点维护仍然采用`Github Pages`。
+
+{{< admonition info "LoveIt 换成 DoIt" true >}}
 由于 LoveIt 原作者已长期未维护，[HEIGE-PCloud](https://github.com/HEIGE-PCloud) 基于 LoveIt 的新主题[DoIt](https://github.com/HEIGE-PCloud/DoIt)主题，并维持着更新。致敬∠(°ゝ°)。
 
 DoIt 的安装配置同 LoveIt，因此此文档仍然可参考。
+{{< /admonition >}}
 
 <!--more-->
-
-[toc]
 
 ## 准备工作
 
@@ -23,15 +32,14 @@ DoIt 的安装配置同 LoveIt，因此此文档仍然可参考。
 
 ### 下载 Hugo
 
+
 Hugo 包括基础版本和支持自定义样式`scss`的 **extended**版本。
 
 为了提高可用性，应对未来可能的自定义需求，我决定安装 **Hugo extended** 版本。
 
 从 [Hugo Release](https://github.com/gohugoio/hugo/releases)下载适合版本的压缩包，我的是Windows_x64。解压缩到想要安装的目录。解压出来，只有简单的一个主程序。可见，相对于 Hexo 依赖于 Node.js 及一大堆 npm 包，Hugo 的确非常的简洁。
 
-<div align="center">
-<img src="https://i.loli.net/2021/07/26/y4JH3CWGFpcY1gk.png" alt="Blog-by-Hugo-and-LoveIt_20210726151100_2021-07-26-15-11-01" width="300" align="center"/>
-</div>
+{{< image src="https://i.loli.net/2021/07/26/y4JH3CWGFpcY1gk.png" width="300" caption="Hugo 安装路径" >}}
 
 ### 添加环境变量
 
@@ -42,7 +50,8 @@ D:\Dev\hugo_0.86.0\
 ```
 
 首先打开 资源管理器/我的电脑，然后在左侧导航栏，右键点击 **此电脑**，在弹出菜单中，打开 **属性**。
-<div align="center"><img src="https://i.loli.net/2021/07/26/gokF32DmiMHhyq5.png" alt="Blog-by-Hugo-and-LoveIt_20210726151842_2021-07-26-15-18-43" width="300" align="center"/></div>
+
+{{< image src="https://i.loli.net/2021/07/26/gokF32DmiMHhyq5.png" width="300" caption="我的电脑->属性" >}}
 
 依次在弹出窗口中点击 **高级系统设置**。
 
@@ -157,6 +166,20 @@ theme = "LoveIt"
 
 ### 创建文章
 
+```bash
+hugo new posts/first-blog.md // 这会在content文件夹下创建posts文件夹，
+                             // 并在里面创建first-blog.md文件。
+```
+
+## 部署到 Github Pages
+
+### 创建空 Github 仓库
+
+### 关联本地站点到仓库
+
 ## 参考
 
-[主题文档 - 基本概念 —— Dillon —— LoveIt](https://hugoloveit.com/zh-cn/theme-documentation-basics/)
+* [主题文档 - 基本概念 —— Dillon —— LoveIt](https://hugoloveit.com/zh-cn/theme-documentation-basics/)
+* [在 Windows 上搭建 Hugo 博客之 Github 部署填坑记](https://suicablog.cobaltkiss.blue/2021/02/deploy-hugo-as-a-github-pages-project/)
+* [Hugo+Github Pages 搭建个人博客手记萌新向](https://xn--4gq986klnp.cn/posts/hugo-github-personalblog/)
+* [如何挑选博客框架、在线博客平台](https://ednovas.xyz/2021/07/03/blog/)
