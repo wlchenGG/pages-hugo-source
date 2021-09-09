@@ -42,7 +42,16 @@ ERROR: No matching distribution found for openssl
 
 首先上 SSL官方网站下载 `Win64 OpenSSL v3.0.0` 版本的 OpenSSL，下载完安装后，注意安装时勾选 `将DLL文件加入 system文件夹` 的项。
 
-然后由于我是在Windows下的Anaconda环境下，
+然后就重新执行`pip install -r requirements.txt`安装依赖包。由于我是在Windows下的Anaconda环境下建立coord-sim环境，因此要在所建环境中执行安装命令。
+```bash
+# 先激活虚拟Python环境 MP1
+activate MP1
+# 定位到coord-sim路径下
+cd coord-sim
+# 安装依赖包
+pip install -r requirements.txt
+```
+如果以上还失败，可以在anaconda自带的命令行工具中执行以上命令。
 
 ## 测试
 
