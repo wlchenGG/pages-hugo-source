@@ -15,5 +15,8 @@ draft: true
 
 
 # 参考
+
+- [GitHub Actions 入门教程 - 阮一峰](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
+- [actions-hugo - Read Hugo version from file](https://github.com/peaceiris/actions-hugo#%EF%B8%8F-read-hugo-version-from-file)
 - [Github Actions Context - failure](https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#failure)
 - [Github Actions - steps context](https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#steps-context)
