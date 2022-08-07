@@ -1,7 +1,7 @@
 ---
 title: "测试 Latex"
 date: 2021-08-12T00:10:43+08:00
-draft: false
+draft: true
 tags:
     - Latex
     - Markdown
@@ -20,3 +20,14 @@ $$
 ### 字符
 
 $\alpha,\mathcal{abcd},\mathscr{abcd}.$
+
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <pre>
+    <code class="prettyprint">
+ int foo (void) {
+   <span style="background-color:yellow">int i;</span>
+ }
+ // Yay code and it has colors
+    </code>
+  </pre>
