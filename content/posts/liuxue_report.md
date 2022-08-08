@@ -47,6 +47,13 @@ draft: true
 
 ### 预注册
 
+
+![pre1](https://i.loli.net/2021/12/01/rRNMPwmfbYGp6JW.png)
+
+![pre2](https://i.loli.net/2021/12/01/TPBWCcxEghjuMlw.png)
+
+
+
 ### 租房
 
 ### 保险
