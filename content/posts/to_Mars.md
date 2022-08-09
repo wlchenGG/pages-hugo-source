@@ -2,7 +2,7 @@
 title: "以我之名，去火星旅行"
 date: 2021-12-12T13:19:28+08:00
 draft: false
-featuredImage: https://mars.nasa.gov/system/resources/detail_files/26384_PIA24938-web.jpg
+#featuredImage: https://mars.nasa.gov/system/resources/detail_files/26384_PIA24938-web.jpg
 ---
 
 
