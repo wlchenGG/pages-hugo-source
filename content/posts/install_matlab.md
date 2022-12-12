@@ -2,7 +2,7 @@
 title: "Matlab 2021a 安装与激活"
 date: 2022-04-03T18:39:48+08:00
 draft: false
-featuredImage: "https://fastly.jsdelivr.net/gh/wlchengg/PicBed@main/images_for_blogs/20220404110105.png"
+#featuredImage: "https://fastly.jsdelivr.net/gh/wlchengg/PicBed@main/images_for_blogs/20220404110105.png"
 
 catagories:
 tags:
