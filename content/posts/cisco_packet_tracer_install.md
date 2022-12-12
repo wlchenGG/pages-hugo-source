@@ -3,7 +3,7 @@ title: "Cisco Packet Tracer 学习 —— 安装"
 date: 2021-10-12T11:00:17+08:00
 draft: false
 
-featuredImage: "https://fastly.jsdelivr.net/gh/wlchengg/PicBed@main/images_for_blogs/20211012190239.png"
+#featuredImage: "https://fastly.jsdelivr.net/gh/wlchengg/PicBed@main/images_for_blogs/20211012190239.png"
 catagories:
     - Cisco Packet Tracer 学习
 tags:
