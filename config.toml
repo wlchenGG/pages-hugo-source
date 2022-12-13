@@ -530,7 +530,7 @@ theme = "DoIt"
 
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "at3gwG-PE_Zyx-Dbf48DAd4DEBuuBj5bKAauNs2_RMg"
     bing = ""
     yandex = ""
     pinterest = ""
