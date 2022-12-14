@@ -1,5 +1,5 @@
 ---
-title: "Python tips"
+title: "Latex tips"
 date: 2022-07-18T15:24:03+08:00
 draft: true
 ---
