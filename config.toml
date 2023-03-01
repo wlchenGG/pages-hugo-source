@@ -51,9 +51,9 @@ theme = "DoIt"
     identifier = "garss"
     pre = "<i class='fas fa-globe-asia' style='duotone;color:#004F7C'></i>"
     post = ""
-    name = "RSS汇"
+    name = "RSS"
     url = "https://wlchengg.github.io/garss/"
-    title = "来自世界的声音"
+    title = ""
     weight = 5
   [[menu.main]]
     identifier = "friends"
@@ -61,7 +61,7 @@ theme = "DoIt"
     post = ""
     name = "友"
     url = "/friends/"
-    title = "有朋自远方来"
+    title = ""
     weight = 5
   [[menu.main]]
     identifier = "tools"
@@ -69,7 +69,7 @@ theme = "DoIt"
     post = ""
     name = "工具箱"
     url = "/tools/"
-    title = "哆啦A梦的口袋"
+    title = ""
     weight = 6
 
 [params]
