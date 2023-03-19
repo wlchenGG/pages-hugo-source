@@ -26,7 +26,7 @@ draft: false
 
 `git log`：查看 Git 仓库的提交历史。
 
-`git reflog`：查看命令历史。
+`git reflog`：查看命令历史，即分支的所有操作记录。
 
 `git tag [name]`：给当前的提交打上标签。
 
@@ -37,6 +37,8 @@ draft: false
 ## 分支相关
 
 `git branch [name]`：创建一个新的分支。
+
+`git branch -d[D] [name]`：删除[强制删除]一个分支。
 
 `git checkout [branch-name]`：切换到另一个分支。
 
@@ -52,11 +54,13 @@ draft: false
 
 `git pull`：从远程仓库拉取最新的代码到本地。
 
-`git push`：将本地的代码推送到远程仓库。
+`git push [origin] [master]`：将本地 master 分支推送到远程仓库。
+
+`git remote -[v]` 查看远程仓库[详细]信息。
 
 `git remote add [name] [url]`：将远程仓库添加到 Git 仓库。
 
-`git fetch`：从远程仓库获取最新的代码，但不进行合并。
+`git fetch`：从远程仓库获取最新的代码，但不进行合并。先`fetch`，再`merge`就相当于`pull`。
 
 ## 其他
 

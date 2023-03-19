@@ -73,8 +73,8 @@ theme = "DoIt"
     weight = 6
 
 [params]
-  #  LoveIt 主题版本
-  version = "0.2.X"
+  #  DoIt 主题版本
+  version = "0.3.X"
   # 网站描述
   description = "来日方长，何惧车遥马慢"
   # 网站关键词
@@ -400,13 +400,13 @@ theme = "DoIt"
       enable = true
       # Disqus 评论系统设置
       [params.page.comment.disqus]
-        # 
+        # DoIt 新增 | 0.1.1
         enable = false
-        # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
+        # Disqus 的 shortname, 用来在文章中启用 Disqus 评论系统
         shortname = ""
       # Gitalk 评论系统设置
       [params.page.comment.gitalk]
-        # 
+        # DoIt 新增 | 0.1.1
         enable = false
         owner = ""
         repo = ""
@@ -427,31 +427,28 @@ theme = "DoIt"
         highlight = true
         enableQQ = false
         serverURLs = ""
-        #  emoji 数据文件名称, 默认是 "google.yml"
+        # DoIt 新增 | 0.2.6 emoji 数据文件名称, 默认是 "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # 位于 "themes/LoveIt/assets/data/emoji/" 目录
+        # 位于 "themes/DoIt/assets/data/emoji/" 目录
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
         emoji = ""
       # Waline 评论系统设置
       [params.page.comment.waline]
-        # DoIt 新增 | 0.2.11
+        # DoIt 更改 | 0.2.14
         enable = false
         serverURL = ""
-        placeholder = "Just Go Go."
-        wordLimit = 0
-        avatar = "mp"
-        meta = ["nick", "mail", "link"]
-        pageSize = 10
-        lang = "en"
-        visitor = true
-        highlight = true
-        avatarCDN = ""
-        avatarForce = false
-        emojiCDN = ""
-        emojiMaps = ""
-        requiredFields = []
-        anonymous = false
+        pageview = true
+        comment = true
+        # emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+        # meta = ['nick', 'mail', 'link']
+        # requiredMeta = []
+        # login = 'enable'
+        # wordLimit = 0
+        # pageSize = 10
+        # imageUploader = false
+        # highlighter = false
+        # texRenderer = false
       # Facebook 评论系统设置
       [params.page.comment.facebook]
         enable = false
@@ -459,7 +456,7 @@ theme = "DoIt"
         numPosts = 10
         appId = ""
         languageCode = "zh_CN"
-      #  Telegram Comments 评论系统设置
+      # DoIt 新增 | 0.2.0 Telegram Comments 评论系统设置
       [params.page.comment.telegram]
         enable = false
         siteID = ""
@@ -469,10 +466,11 @@ theme = "DoIt"
         colorful = true
         dislikes = false
         outlined = false
-      #  Commento 评论系统设置
+        dark = false
+      # DoIt 新增 | 0.2.0 Commento 评论系统设置
       [params.page.comment.commento]
         enable = false
-      #  Utterances 评论系统设置
+      # DoIt 新增 | 0.2.5 Utterances 评论系统设置
       [params.page.comment.utterances]
         enable = false
         # owner/repo
@@ -488,6 +486,7 @@ theme = "DoIt"
         region = ""
         path = ""
         visitor = true
+        commentCount = true
       # DoIt 新增 | 0.2.12 Vssue 评论系统设置
       [params.page.comment.vssue]
         enable = false
@@ -496,6 +495,29 @@ theme = "DoIt"
         repo = ""
         clientId = ""
         clientSecret = ""
+      # DoIt 新增 | 0.2.13 Remark42 评论系统设置
+      [params.page.comment.remark42]
+        enable = false
+        host = ""
+        site_id = ""
+        max_shown_comments = 15
+        show_email_subscription = true
+        simple_view = false
+      # DoIt 新增 | 0.2.13 giscus 评论系统设置
+      [params.page.comment.giscus]
+        enable = true
+        # owner/repo
+        dataRepo = "wlchengg/wlchengg.github.io"
+        dataRepoId = "MDEwOlJlcG9zaXRvcnkzOTAwODEzNjM"
+        dataCategory = "Announcements"
+        dataCategoryId = "DIC_kwDOF0ArU84CU-ao"
+        dataMapping = "pathname"
+        dataReactionsEnabled = "1"
+        dataEmitMetadata = "0"
+        dataInputPosition = "bottom"
+        lightTheme = "light"
+        darkTheme = "dark"
+        dataLang = "zh-CN"
     #  第三方库配置
     [params.page.library]
       [params.page.library.css]
@@ -581,6 +603,21 @@ theme = "DoIt"
     polyfill = false
     # 是否使用 object-fit-images 来兼容旧式浏览器
     objectFit = false
+  
+  # giscus 评论系统
+  [params.giscus]
+    data-repo="wlchengg/wlchengg.github.io"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkzOTAwODEzNjM="
+    data-category="Announcements"
+    data-category-id="DIC_kwDOF0ArU84CU-ao"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
 
 # Hugo 解析文档的配置
 [markup]
@@ -625,8 +662,8 @@ theme = "DoIt"
 
 # Permalinks 配置
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":year/:month/:filename"
+  # posts = ":filename"
 
 # 隐私信息配置
 [privacy]
