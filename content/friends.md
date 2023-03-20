@@ -20,7 +20,7 @@ title: "另一个地球"
 {{< friend name="V2 方圆" url="https://v2fy.com/" avatar="/images/v2fy.png" bio="很全很赞的工具资源导航" >}}
 
 
-{{< admonition type=information title="友链互换，请在评论区留言 😎" open=true >}}
+{{< admonition type=tip title="友链互换，请在评论区留言 😎" open=true >}}
 name= Wlcheng' Life
 
 url= https://wlcheng.cc

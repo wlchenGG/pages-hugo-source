@@ -2,6 +2,8 @@
 title: "Hugo 搭建过程"
 date: 2021-07-27T14:06:53+08:00
 draft: false
+categaries:
+    - 技术
 tags: 
     - Hugo
     - 博客

@@ -1,10 +1,11 @@
 ---
-title: "PowerShell美化"
+title: "PowerShell 美化"
 date: 2021-08-19T17:40:30+08:00
 draft: false
+categories:
+    - 软件
 tags: 
     - PowerShell
-    - 美化
     - Terminal
 #featuredImage: "https://i.loli.net/2021/08/20/Z1vNFtc8eIz5fW9.png"
 

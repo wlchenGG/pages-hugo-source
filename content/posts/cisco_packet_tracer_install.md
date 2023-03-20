@@ -5,7 +5,7 @@ draft: false
 
 #featuredImage: "https://fastly.jsdelivr.net/gh/wlchengg/PicBed@main/images_for_blogs/20211012190239.png"
 catagories:
-    - Cisco Packet Tracer 学习
+    - 软件
 tags:
     - Cisco Packet Tracer
 ---
@@ -68,4 +68,4 @@ tags:
 5. 关闭软件并重新打开查看是否修改成功。
 <div align="center" ><img src="https://fastly.jsdelivr.net/gh/wlchengg/PicBed@main/images_for_blogs/2fRmYKyAoM.gif" alt="2fRmYKyAoM" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:0px;"/></div>
 
-搭好环境，下一篇正式开始学习使用。
+搭好环境，下一篇正式开始学习使用。p.s. 下一篇暂无。

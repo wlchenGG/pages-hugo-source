@@ -92,26 +92,26 @@ for i in range(3):
 
 参考：
 
-很好：[Python matplotlib 入门级绘制图形 (三)-- 完善你的统计图形](https://blog.csdn.net/Janbob_Xiao/article/details/123830784)
-柱状图排布：[matplotlib 之 pyplot 模块之柱状图（bar ()：多组数据并列柱状图通用简便创建方法） - mighty13 的文章 - CSDN](https://blog.csdn.net/mighty13/article/details/113873617)
-图例：[python matplotlib 自定义图例位置（一） - WYoung 的文章 - 知乎](https://zhuanlan.zhihu.com/p/464335876)
-透明度：[牛散村:python 如何设置柱状图参数？matplotlib 绘制柱状图参数详解 - CSDN](https://blog.csdn.net/weixin_45378258/article/details/118961719?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-118961719-null-null.pc_agg_new_rank&utm_term=Python%E7%9A%84bar%E8%AE%BE%E7%BD%AE%E6%9F%B1%E7%8A%B6%E5%9B%BE%E9%80%8F%E6%98%8E%E5%BA%A6&spm=1000.2123.3001.4430)
+- 很好：[Python matplotlib 入门级绘制图形 (三)-- 完善你的统计图形](https://blog.csdn.net/Janbob_Xiao/article/details/123830784)
+- 柱状图排布：[matplotlib 之 pyplot 模块之柱状图（bar ()：多组数据并列柱状图通用简便创建方法） - mighty13 的文章 - CSDN](https://blog.csdn.net/mighty13/article/details/113873617)
+- 图例：[python matplotlib 自定义图例位置（一） - WYoung 的文章 - 知乎](https://zhuanlan.zhihu.com/p/464335876)
+- 透明度：[牛散村:python 如何设置柱状图参数？matplotlib 绘制柱状图参数详解 - CSDN](https://blog.csdn.net/weixin_45378258/article/details/118961719?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-118961719-null-null.pc_agg_new_rank&utm_term=Python%E7%9A%84bar%E8%AE%BE%E7%BD%AE%E6%9F%B1%E7%8A%B6%E5%9B%BE%E9%80%8F%E6%98%8E%E5%BA%A6&spm=1000.2123.3001.4430)
 
 ### 数据处理
 
 
-求均值：[numpy 求平均值](https://blog.csdn.net/reyyy/article/details/108279103)
-数组转置：[python 转置 - 毒鸡蛋的文章 - CSDN](https://blog.csdn.net/dujidan/article/details/121932770?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-5-121932770-null-null.pc_agg_new_rank&utm_term=python%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E8%BD%AC%E7%BD%AE&spm=1000.2123.3001.4430)
-等差、等比数列：[【冰糖 Python】numpy：等差数列 等比数列](https://blog.csdn.net/xiaoxiao_ziteng/article/details/115272880)
-数组分割：[numpy.argpartition () 的作用 - 江南蜡笔小新 的文章 - CSDN](https://blog.csdn.net/ftimes/article/details/119939691) 、[python (np.argpartition ()) 输出 前 n 个最大 / 小值所对应的索引](https://blog.csdn.net/weixin_41457494/article/details/105603211)
-数组差/相减：[Numpy 中进行数组数据相减运算（- 号或者 np.subtract）](https://blog.csdn.net/sdgfbhgfj/article/details/123782111)
+- 求均值：[numpy 求平均值](https://blog.csdn.net/reyyy/article/details/108279103)
+- 数组转置：[python 转置 - 毒鸡蛋的文章 - CSDN](https://blog.csdn.net/dujidan/article/details/121932770?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-5-121932770-null-null.pc_agg_new_rank&utm_term=python%E5%AE%9E%E7%8E%B0%E6%95%B0%E6%8D%AE%E8%BD%AC%E7%BD%AE&spm=1000.2123.3001.4430)
+- 等差、等比数列：[【冰糖 Python】numpy：等差数列 等比数列](https://blog.csdn.net/xiaoxiao_ziteng/article/details/115272880)
+- 数组分割：[numpy.argpartition () 的作用 - 江南蜡笔小新 的文章 - CSDN](https://blog.csdn.net/ftimes/article/details/119939691) 、[python (np.argpartition ()) 输出 前 n 个最大 / 小值所对应的索引](https://blog.csdn.net/weixin_41457494/article/details/105603211)
+- 数组差/相减：[Numpy 中进行数组数据相减运算（- 号或者 np.subtract）](https://blog.csdn.net/sdgfbhgfj/article/details/123782111)
 
 [预测评价指标：MSE,RMSE,MAE，MAPE，SMAPE](https://blog.csdn.net/qq_31244453/article/details/114665195)
 
 ### python 语法
 
-[Python 跨文件全局变量的使用技巧](https://blog.csdn.net/liming89/article/details/122879717)
-字典读/取：[python 字典快速保存于读取的方法](http://t.csdn.cn/G3n0h)
+- [Python 跨文件全局变量的使用技巧](https://blog.csdn.net/liming89/article/details/122879717)
+- 字典读/取：[python 字典快速保存于读取的方法](http://t.csdn.cn/G3n0h)
 
 
 ### 文件处理

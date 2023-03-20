@@ -2,6 +2,10 @@
 title: "Git 常用命令和用法"
 date: 2023-03-08T11:26:27+01:00
 draft: false
+categories:
+  - 技术
+tags:
+  - git
 ---
 
 速查 Git 常用的命令和用法。分为基本（commit、branch、checkout、merge、rabase 等）和远程（clone、push、pull 等）两部分。

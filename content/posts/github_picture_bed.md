@@ -1,13 +1,19 @@
 ---
-title: "Github 图床搭建及使用"
+title: "Github 图床 PicGo 使用"
 date: 2022-05-06T18:42:12+08:00
 draft: false
+categories:
+  - 技术
 tags:
   - Github
   - Markdown
   - 图床
   - Typora
 ---
+
+用 Github 仓库作为自用图床；用 PicGo 直接在 Typora 和 VS Code 中一键上传图床、粘贴图链。
+
+<!--more-->
 
 ## 搭建Github图床
 

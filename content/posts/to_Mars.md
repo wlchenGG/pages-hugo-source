@@ -1,10 +1,18 @@
 ---
-title: "以我之名，去火星旅行"
+title: "以我之名，去火星旅行（Send Your Name to Mars）"
 date: 2021-12-12T13:19:28+08:00
 draft: false
 #featuredImage: https://mars.nasa.gov/system/resources/detail_files/26384_PIA24938-web.jpg
+categories:
+  - 玩乐
+tags:
+  - 火星
+  - NASA
 ---
 
+我去不了火星，但是我的名字可以！
+
+<!--more-->
 
 时隔两年，NASA 的第二次 `“Send Your Name to Mars”` 浪漫主义火星旅行项目又开始招募游客啦。(～￣▽￣)～
 

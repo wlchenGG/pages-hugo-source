@@ -8,7 +8,7 @@ tags:
     - PyTorch
 ---
 
-记录在 Linux 下，Miniconda 中配置 PyTorch 环境。
+记录在 Linux 下，Miniconda3 中配置 PyTorch 环境。
 
 <!--more-->
 
@@ -18,13 +18,13 @@ tags:
 
 ### 下载安装包
 
-```
+```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
 ```
 
 ### 执行安装
 
-```
+```bash
 bash Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
 ```
 
@@ -40,7 +40,7 @@ bash Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
 
 为了提高软件包下载速度，我们可以通过以下命令添加镜像软件源：
 
-```
+```bash
 # 新加源具有高优先级
 conda config --add channels source_url
 conda config --prepend channels source_url #同上等效
@@ -50,7 +50,7 @@ conda config --append channels source_url
 
 执行以下命令，添加清华源：
 
-```
+```bash
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
@@ -59,7 +59,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 
 查看源是否添加成功：
 
-```
+```bash
 conda config --get channels
 ```
 
@@ -75,7 +75,7 @@ conda config --get channels
 
 ### 创建 conda 独立环境
 
-```
+```bash
 conda create -n pt python=3.10
 ```
 
@@ -83,19 +83,19 @@ conda create -n pt python=3.10
 
 进入创建的环境 `pt`：
 
-```
+```bash
 conda activate pt
 ```
 
 通过 PyTorch [官网](https://pytorch.org/get-started/locally/)，选择所需环境，获取安装命令并执行：
 
-```
+```bash
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 
 进入 Python 上下文环境，执行以下命令，如果能输出正确的版本号，则 PyTorch 安装成功：
 
-```
+```python
 import torch
 torch.__version__
 ```
@@ -113,7 +113,7 @@ torch.__version__
 
 ### 环境管理命令
 
-```
+```bash
 # 创建虚拟环境
 conda create --name 环境名 python=3.7 [可以指定其他需要安装的包]
 # 删除某个环境
@@ -139,7 +139,7 @@ conda env remove --name 旧环境名
 
 ## 源（频道）管理命令
 
-```
+```bash
 ## 添加新的源
 # 新加源具有高优先级
 conda config --add channels source_url
