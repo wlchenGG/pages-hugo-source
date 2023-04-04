@@ -1,8 +1,16 @@
 ---
-title: "Python tips"
+title: "Python 用过用法用例"
 date: 2022-07-15T15:24:03+08:00
 draft: true
+categories:
+    - 编程
+tags:
+    - Python
 ---
+
+记录使用 Python 过程中的一些用法，以及用例。
+
+<!--more-->
 
 ## 环境配置
 
@@ -177,7 +185,10 @@ list(my_dict.keys())[list(my_dict.values()).index(1)]
 ```
 
 - [Python pandas 根据指定条件筛选数据](https://blog.csdn.net/p1306252/article/details/114879951)
-- []()
+- [python print 字体颜色 print 背景颜色](https://blog.csdn.net/ever_peng/article/details/91492491)
+- [Python Pandas 创建 DataFrame 的四种方法](https://blog.csdn.net/qq_42067550/article/details/106148799)
+- [Pandas DataFrame—— 按行构建](https://blog.csdn.net/jasonwang_/article/details/78779760)
+- [如何向 Pandas DataFrame 添加行](https://blog.csdn.net/allway2/article/details/121421241)
 
 #### 提取 one-tab 列表链接为 markdown 连接格式
 
@@ -201,4 +212,28 @@ for link in links:
     if href.startswith('http'):
         title = link.text
         print(f"[{title}]({href})")
+```
+
+
+#### PDF 处理
+
+- 【pdfplumer较好】[Python：解析 PDF 文本及表格 ——pdfminer、tabula、pdfplumber 的用法及对比](https://cloud.tencent.com/developer/article/1386517)
+
+```python
+import pdfplumber
+
+path = 'test.pdf'
+pdf = pdfplumber.open (path)
+
+for page in pdf.pages:
+    # 获取当前页面的全部文本信息，包括表格中的文字
+    # print (page.extract_text ())                        
+
+    for table in page.extract_tables ():
+        # print (table)
+        for row in table:
+            print (row)
+        print ('---------- 分割线 ----------')
+
+pdf.close ()
 ```

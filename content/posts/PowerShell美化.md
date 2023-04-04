@@ -8,9 +8,7 @@ tags:
     - PowerShell
     - Terminal
 #featuredImage: "https://i.loli.net/2021/08/20/Z1vNFtc8eIz5fW9.png"
-
 lightgallery: true
-
 ---
 
 记录新版 PowerShell 美化过程。

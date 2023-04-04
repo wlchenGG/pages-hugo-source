@@ -21,12 +21,12 @@ title: "另一个地球"
 
 
 {{< admonition type=tip title="友链互换，请在评论区留言 😎" open=true >}}
-name= Wlcheng' Life
+name= "Wlcheng' Life"
 
-url= https://wlcheng.cc
+url= "https://wlcheng.cc"
 
-avatar= https://wlcheng.cc/images/avatar.png
+avatar= "https://wlcheng.cc/images/avatar.png"
 
-bio= 来日方长，何惧车遥马慢
+bio= "来日方长，何惧车遥马慢"
 {{< /admonition >}}
 

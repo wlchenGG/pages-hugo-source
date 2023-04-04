@@ -1,12 +1,16 @@
 ---
-title: "Matlab 知识"
+title: "Matlab 用过用法用例"
 date: 2022-04-06T09:37:31+08:00
 draft: true
 categories:
   - 编程
 tags:
-  - matlab  
+  - Matlab 
 ---
+
+记录使用 Matlab 过程中的一些用法，以及用例。
+
+<!--more-->
 
 ## 数组
 
