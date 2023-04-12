@@ -49,28 +49,36 @@ theme = "DoIt"
   #   weight = 4
   [[menu.main]]
     identifier = "garss"
-    pre = "<i class='fas fa-globe-asia' style='duotone;color:#004F7C'></i>"
+    # pre = "<i class='fas fa-globe-asia' style='duotone;color:#004F7C'></i>"
     post = ""
     name = "RSS"
     url = "https://wlchengg.github.io/garss/"
     title = ""
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "friends"
-    pre = "<i class='fas fa-user-friends' style='duotone;color:#A0EEE1'></i>"
+    # pre = "<i class='fas fa-user-friends' style='duotone;color:#A0EEE1'></i>"
     post = ""
     name = "友"
     url = "/friends/"
     title = ""
     weight = 5
+  # [[menu.main]]
+  #   identifier = "tools"
+  #   # pre = "<i class='fas fa-toolbox' style='color:#2c3e50;'></i>"
+  #   post = ""
+  #   name = "工具"
+  #   url = "/tools/"
+  #   title = ""
+  #   weight = 7
   [[menu.main]]
-    identifier = "tools"
-    pre = "<i class='fas fa-toolbox' style='color:#2c3e50;'></i>"
+    identifier = "ccf"
+    # pre = "<i class='' style='color:#2c3e50;'></i>"
     post = ""
-    name = "工具箱"
-    url = "/tools/"
+    name = "CCF推荐目录"
+    url = "ccf-recommendation"
     title = ""
-    weight = 6
+    weight = 8
 
 [params]
   #  DoIt 主题版本
