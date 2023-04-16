@@ -75,7 +75,7 @@ theme = "DoIt"
     identifier = "ccf"
     # pre = "<i class='' style='color:#2c3e50;'></i>"
     post = ""
-    name = "CCF推荐目录"
+    name = "CCF推荐"
     url = "ccf-recommendation"
     title = ""
     weight = 8
