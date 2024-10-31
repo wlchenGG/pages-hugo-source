@@ -1,7 +1,7 @@
 ---
 title: "数学分析"
 date: 2021-10-15T18:47:46+08:00
-draft: false
+draft: true
 categories: 
   - 数学
 tags: 
