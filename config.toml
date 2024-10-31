@@ -235,7 +235,7 @@ theme = "DoIt"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
-      subtitle = "来日方长，何惧车遥马慢"
+      subtitle = "朝闻道，夕死可矣"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
