@@ -38,4 +38,5 @@ Token
   wlchenGG/myPictureBed
   main
   images/
-  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
+  token: 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
+
