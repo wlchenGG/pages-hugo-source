@@ -38,10 +38,11 @@ Token
   wlchenGG/myPictureBed
   main
   images/
-  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
+  token: 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
   
   https://img1.wlcheng.cc
   wlchenGG/PicBed
   main
   images_for_blogs/
-  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
+  token_classical: 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
+
