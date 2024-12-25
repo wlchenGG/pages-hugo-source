@@ -38,14 +38,14 @@ draft: false
 首先来说，MathType 正确加载的话，Word 的菜单栏上会有 MathType，如下
 <div align=center>
 
-![mathtype-setup-for-word_Image001_2021-07-24-01-06-17](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image001_2021-07-24-01-06-17.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image001_2021-07-24-01-06-17.png" alt="mathtype-setup-for-word_Image001_2021-07-24-01-06-17" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
 而现在问题是，打开Word，菜单栏没有 MathType 项，
 <div align=center>
 
-![mathtype-setup-for-word_Image002_2021-07-24-01-06-59](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image002_2021-07-24-01-06-59.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image002_2021-07-24-01-06-59.png" alt="mathtype-setup-for-word_Image002_2021-07-24-01-06-59" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -77,7 +77,7 @@ Word 上的 MathType加载项要能正确运行并使用，须满足：
 
 <div align=center>
 
-![mathtype-setup-for-word_Image003_2021-07-24-01-07-19](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image003_2021-07-24-01-07-19.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image003_2021-07-24-01-07-19.png" alt="mathtype-setup-for-word_Image003_2021-07-24-01-07-19" width="65%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -87,7 +87,7 @@ Word 上的 MathType加载项要能正确运行并使用，须满足：
 
 <div align=center>
 
-![mathtype-setup-for-word_Image004_2021-07-24-01-07-53](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image004_2021-07-24-01-07-53.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image004_2021-07-24-01-07-53.png" alt="mathtype-setup-for-word_Image004_2021-07-24-01-07-53" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -95,7 +95,7 @@ Word 上的 MathType加载项要能正确运行并使用，须满足：
 
 <div align=center>
 
-![mathtype-setup-for-word_Image005_2021-07-24-01-08-03](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image005_2021-07-24-01-08-03.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image005_2021-07-24-01-08-03.png" alt="mathtype-setup-for-word_Image005_2021-07-24-01-08-03" width="45%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -111,14 +111,14 @@ Word 上的 MathType加载项要能正确运行并使用，须满足：
 Word菜单栏->**文件**->**选项**->**加载项**->底部**管理**下拉框选择 **Word加载项** 并点击**转到**，弹出类似下面的对话框，
 <div align=center>
 
-![mathtype-setup-for-word_Image006_2021-07-24-01-08-15](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image006_2021-07-24-01-08-15.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image006_2021-07-24-01-08-15.png" alt="mathtype-setup-for-word_Image006_2021-07-24-01-08-15" width="55%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
  没问题的情况下，这里的第一项应该是被勾选上的，如下说明。
 <div align=center>
 
-![mathtype-setup-for-word_Image007_2021-07-24-01-08-25](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image007_2021-07-24-01-08-25.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image007_2021-07-24-01-08-25.png" alt="mathtype-setup-for-word_Image007_2021-07-24-01-08-25" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -130,7 +130,7 @@ D:\Math\MathType\Office Support\64 （64位 Office）
 对于我的版本，选择 **MathType Commands 2016.dotm** 这一个
 <div align=center>
 
-![mathtype-setup-for-word_Image008_2021-07-24-01-08-36](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image008_2021-07-24-01-08-36.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image008_2021-07-24-01-08-36.png" alt="mathtype-setup-for-word_Image008_2021-07-24-01-08-36" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -148,7 +148,7 @@ D:\Math\MathType\Office Support\64 （64位 Office）
 
 <div align=center>
 
-![mathtype-setup-for-word_Image009_2021-07-24-01-08-51](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image009_2021-07-24-01-08-51.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image009_2021-07-24-01-08-51.png" alt="mathtype-setup-for-word_Image009_2021-07-24-01-08-51" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -156,7 +156,7 @@ D:\Math\MathType\Office Support\64 （64位 Office）
 
 <div align=center>
 
-![mathtype-setup-for-word_Image010_2021-07-24-01-09-07](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image010_2021-07-24-01-09-07.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image010_2021-07-24-01-09-07.png" alt="mathtype-setup-for-word_Image010_2021-07-24-01-09-07" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -164,7 +164,7 @@ D:\Math\MathType\Office Support\64 （64位 Office）
 
 <div align=center>
 
-![mathtype-setup-for-word_Image011_2021-07-24-01-09-17](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image011_2021-07-24-01-09-17.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image011_2021-07-24-01-09-17.png" alt="mathtype-setup-for-word_Image011_2021-07-24-01-09-17" width="100%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -172,7 +172,7 @@ D:\Math\MathType\Office Support\64 （64位 Office）
 
 <div align=center>
 
-![mathtype-setup-for-word_Image012_2021-07-24-01-09-27](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image012_2021-07-24-01-09-27.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image012_2021-07-24-01-09-27.png" alt="mathtype-setup-for-word_Image012_2021-07-24-01-09-27" width="100%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
@@ -180,7 +180,7 @@ D:\Math\MathType\Office Support\64 （64位 Office）
 
 <div align=center>
 
-![mathtype-setup-for-word_Image013_2021-07-24-01-09-39](https://fastly.jsdelivr.net/gh/wlchenGG/PicBed/images_for_blogs/mathtype-setup-for-word_Image013_2021-07-24-01-09-39.png)
+<div align="center" ><img src="https://img1.wlcheng.cc/images_for_blogs/mathtype-setup-for-word_Image013_2021-07-24-01-09-39.png" alt="mathtype-setup-for-word_Image013_2021-07-24-01-09-39" width="75%" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius:10px;"/></div>
 
 </div>
 
