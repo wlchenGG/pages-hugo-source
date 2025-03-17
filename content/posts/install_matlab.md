@@ -1,6 +1,6 @@
 ---
 title: "Matlab 2021a 安装与激活"
-date: 2022-04-03T18:39:48+08:00
+date: 2025-04-03T18:39:48+08:00
 draft: false
 #featuredImage: "https://img1.wlcheng.cc/images_for_blogs/20220404110105.png"
 catagories:
