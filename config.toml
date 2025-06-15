@@ -79,6 +79,14 @@ theme = "DoIt"
     url = "ccf-recommendation"
     title = ""
     weight = 8
+  # [[menu.main]]
+  #   identifier = "ngi"
+  #   # pre = "<i class='' style='color:#2c3e50;'></i>"
+  #   post = ""
+  #   name = "NGI Lab"
+  #   url = "ngi"
+  #   title = ""
+  #   weight = 9
 
 [params]
   #  DoIt 主题版本
