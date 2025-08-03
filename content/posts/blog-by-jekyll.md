@@ -13,7 +13,6 @@ draft: true
 Jekyll 是用 Ruby 写的，所以需要先安装 Ruby。
 
 1. 下载 Ruby 安装包：https://rubyinstaller.org/downloads/
-   
 2. 安装 Ruby，记得勾选“Add Ruby executables to your PATH”选项。
 3. 打开命令行，输入`ruby -v`，如果显示 Ruby 版本号，则表示安装成功。
 

@@ -1,7 +1,7 @@
 ---
 title: "Github Token"
 date: 2024-10-30T16:32:12+08:00
-draft: true
+draft: false
 categories:
   - 技术
 tags:
@@ -9,40 +9,25 @@ tags:
   - Token
 ---
 
-Token
+Generate github token
 
 <!--more-->
 
-## 搭建Github图床
+## 创建Token
 
-### 1. 创建Token
+**Warning**：Token一旦生成，无法再次查看，只能重新生成，所以一定要保存好。
 
 - 登录Github，点击右上角头像，选择Settings
-- 选择Developer settings
-- 选择Personal access tokens
-- 点击右上角Generate new token
-- 设置Token名称，选择Token有效期，勾选repo
-- 点击Generate token，生成Token
-
-### 存档
-
-- XiangYiChen12
-  https://fastly.jsdelivr.net/gh/XiangYiChen12/PicBed@main
-  XiangYiChen12/PicBed
-  main
-  images/
-  token: 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
-
-- wlchenGG
-  https://img2.wlcheng.cc
-  wlchenGG/myPictureBed
-  main
-  images/
-  token: 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
-  
-  https://img1.wlcheng.cc
-  wlchenGG/PicBed
-  main
-  images_for_blogs/
-  token_classical: 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
-
+- 左侧选择Developer settings
+- 选择Personal access tokens，两种方式：
+  - Tokens (classic)：经典版，简单但不能选择特定仓库和权限
+    - 点击右上角Generate new token
+    - 设置Token名称，选择Token有效期，勾选repo
+    - 点击Generate token，生成 token。
+    - token 格式：`github_pat_<22位随机字符>_<59位随机字符>`
+  - Fine-grained tokens：细粒度版，可以针对特定仓库和精细控制权限
+    - 点击右上角Generate new token
+    - 设置Token名称，选择Token有效期，选择特定仓库或所有仓库
+    - 添加权限类别 `Contents`，并选择 `read and write` 权限
+    - 点击Generate token，生成 token。
+    - token 格式：`ghp_<36位随机字母数字串>`
