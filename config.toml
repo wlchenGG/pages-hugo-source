@@ -87,6 +87,16 @@ theme = "DoIt"
   #   url = "ngi"
   #   title = ""
   #   weight = 9
+  [[menu.main]]
+    identifier = "playing"
+    # pre = "<i class='' style='color:#2c3e50;'></i>"
+    post = ""
+    name = "玩玩"
+    url = "playing"
+    title = ""
+    weight = 9
+    # 下拉栏
+    
 
 [params]
   #  DoIt 主题版本
