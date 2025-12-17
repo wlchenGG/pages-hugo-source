@@ -88,13 +88,22 @@ theme = "DoIt"
   #   title = ""
   #   weight = 9
   [[menu.main]]
+    identifier = "stones"
+    # pre = "<i class='' style='color:#2c3e50;'></i>"
+    post = ""
+    name = "山石"
+    url = "stones"
+    title = ""
+    weight = 9
+    # 下拉栏
+  [[menu.main]]
     identifier = "playing"
     # pre = "<i class='' style='color:#2c3e50;'></i>"
     post = ""
     name = "玩玩"
     url = "playing"
     title = ""
-    weight = 9
+    weight = 10
     # 下拉栏
     
 
