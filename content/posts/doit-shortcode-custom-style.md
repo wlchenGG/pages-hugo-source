@@ -1,7 +1,7 @@
 ---
 title: "DoIt 友链与音乐播放器样式自定义记录"
 date: 2026-05-17T17:10:00+08:00
-draft: true
+draft: false
 categories:
   - 编程
   - 博客
