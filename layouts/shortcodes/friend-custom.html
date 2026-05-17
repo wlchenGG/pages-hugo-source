@@ -1,0 +1,29 @@
+{{- $title := "" -}}
+{{- $link := ""  -}}
+{{- $avatar := "" -}}
+{{- $bio := "" -}}
+{{- if .IsNamedParams -}}
+    {{- $avatar = .Get "avatar" -}}
+    {{- $link = .Get "url"  -}}
+    {{- $title = .Get "name" -}}
+    {{- $bio = .Get "bio" -}}
+{{- else -}}
+    {{- $title = .Get 0 -}}
+    {{- $link = .Get 1 -}}
+    {{- $avatar = .Get 2 -}}
+    {{- $bio = .Get 3 -}}
+{{- end -}}
+<a target="_blank" href="{{- $link -}}" title="{{- $title -}}" class="friend-custom-link" rel="noopener noreferrer">
+    <span class="friend-custom-card">
+        <span class="friend-custom-avatar">
+            {{- dict "Src" $avatar | partial "plugin/image.html" -}}
+        </span>
+        <span class="friend-custom-info">
+            <span class="friend-custom-name-row">
+                {{ partial "plugin/fontawesome.html" (dict "Style" "solid" "Icon" "user-circle") }}
+                <i class="friend-custom-name">{{- $title -}}</i>
+            </span>
+            <span class="friend-custom-bio">{{- $bio -}}</span>
+        </span>
+    </span>
+</a>
