@@ -7,8 +7,8 @@
 [![博客主页预览](static/images/wlcheng_cc.png)](https://wlcheng.cc/)
 
 ## 环境依赖
-- [Hugo Extended 0.145.0](https://gohugo.io/getting-started/installing/#extended)（见 `.env`）
-- [Node.js 18+](https://nodejs.org/)（仅在需要重新编译主题的 Tailwind 资源时使用）
+- [Hugo Extended 0.161.1](https://gohugo.io/getting-started/installing/#extended)（见 `.env`）
+- [Node.js 20+](https://nodejs.org/)（DoIt v1.x 构建样式所需）
 - [Git](https://git-scm.com/)（用于管理主题子模块）
 
 ## 仓库结构
@@ -26,7 +26,7 @@
 1. 克隆仓库并拉取主题子模块：
    - `git clone --recursive <repository>`
    - 若已克隆则执行 `git submodule update --init --recursive`
-2. （可选）进入 `themes/DoIt/` 安装前端依赖以用于本地 Tailwind 开发：`npm install`
+2. 进入 `themes/DoIt/` 安装前端依赖：`npm install`
 
 ## 本地开发
 - 启动 Hugo 开发服务器（包含草稿）：`hugo server -D`
@@ -34,9 +34,10 @@
 - 打开 `http://localhost:1313` 预览站点
 
 ## 构建与发布
-- 生产构建命令：`hugo --minify`（生成内容位于 `public/`）
+- 生产构建命令：`hugo --gc --minify`（生成内容位于 `public/`）
 - `.github/workflows/generate-hugo-pages.yml` 使用 [peaceiris/actions-hugo](https://github.com/peaceiris/actions-hugo) 与 [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)：
   - 从 `.env` 读取 `HUGO_VERSION` 以确保与本地一致
+  - 安装 DoIt 主题前端依赖（`themes/DoIt`）
   - 自动同步主题子模块
   - 使用 `HUGO_DEPLOY_TOKEN` 将 `public/` 内容部署到 `wlchengg/wlchengg.github.io` 仓库的 `main` 分支
 
