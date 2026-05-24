@@ -127,6 +127,12 @@ theme = "DoIt"
   images = ["/logo.png"]
   # DoIt 新增 | 0.2.11 开启 PWA 支持
   enablePWA = false
+  # DoIt v1 图片优化（建议开启）
+  cacheRemoteImages = true
+  optimizeImages = true
+  srcsetSmallResizeMethod = "700x webp Lanczos q75"
+  srcsetDefaultResizeMethod = "1200x webp Lanczos q75"
+  srcsetLargeResizeMethod = "2000x webp Lanczos q75"
   # DoIt 新增 | 0.2.14 版权信息
   license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
  
@@ -773,7 +779,7 @@ theme = "DoIt"
   priority = 0.5
 
 # Permalinks 配置
-[Permalinks]
+[permalinks]
   # posts = ":year/:month/:contentbasename"
   posts = "posts/:contentbasename"
 
