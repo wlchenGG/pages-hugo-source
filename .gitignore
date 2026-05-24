@@ -1,5 +1,6 @@
 # themes/
 public/
+resources/_gen/
 .history/
 .codemap/
 content/posts/github_token.md
