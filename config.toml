@@ -628,7 +628,7 @@ theme = "DoIt"
         logoUrl = ""
     # DoIt 新增 | 0.2.14 相关文章推荐配置
     [params.page.related]
-      enable = true
+      enable = false
       count = 5
 
   # DoIt 新增 | 0.2.13 赞赏配置
